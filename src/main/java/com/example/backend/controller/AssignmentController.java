@@ -26,5 +26,7 @@ public class AssignmentController {
     @GetMapping
     public List<Assignment> getAll() {
         return repo.findAll();
+
+        
     }
 }
